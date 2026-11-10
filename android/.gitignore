@@ -1,0 +1,10 @@
+/.gradle/
+/.kotlin/
+/captures/
+/local.properties
+**/GeneratedPluginRegistrant.java
+**/.cxx/
+key.properties
+**/*.keystore
+**/*.jks
+# The Gradle wrapper scripts and jar are intentionally version controlled.

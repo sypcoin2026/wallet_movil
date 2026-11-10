@@ -1,0 +1,35 @@
+# Flutter / IDE
+.dart_tool/
+.packages
+.flutter-plugins
+.flutter-plugins-dependencies
+build/
+.idea/
+.vscode/
+*.iml
+# Local SDK paths and generated Android files
+**/local.properties
+**/.gradle/
+**/.kotlin/
+**/.cxx/
+**/captures/
+**/GeneratedPluginRegistrant.java
+# Secrets and signing material stay on the developer's machine
+.env
+.env.*
+!.env.example
+**/key.properties
+*.jks
+*.keystore
+*.pem
+*.p12
+*.key
+# Local outputs, installed-wallet data and historical copies
+*.apk
+*.aab
+*.log
+*.bak
+*.bak-*
+evidencia_v061/
+local/
+.DS_Store

@@ -1,0 +1,25 @@
+name: sypc_wallet
+version: 0.6.1+7
+description: SYPC Wallet Android testnet prototype. No key custody, payments or live node access.
+publish_to: none
+
+environment:
+  sdk: '>=3.6.0 <4.0.0'
+
+dependencies:
+  pointycastle: 4.0.0
+  flutter:
+    sdk: flutter
+
+  shared_preferences: ^2.5.6
+  qr_flutter: ^4.1.0
+
+dev_dependencies:
+  flutter_lints: ^6.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/branding/sypcoin_logo_circular.png
